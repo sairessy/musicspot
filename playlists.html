@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="libraries/line-awesome.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/playlists.css" />
+    <title>MusicSpot</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="index.html">
+          <span class="icon-button">
+            <i class="la la-lg la-arrow-left"></i>
+          </span>
+        </a>
+        <h3>Listas de reprodução</h3>
+      </div>
+    </header>
+    <main>
+      <form>
+        <input
+          type="text"
+          id="input-playlist-name"
+          placeholder="Nome da lista"
+        />
+        <button>Adicionar</button>
+      </form>
+      <section>
+        <div id="lists">
+          <div class="list">
+            <div class="play">
+              <a href="list.html?l=0">
+                <i class="la la-2x la-play-circle"></i>
+              </a>
+            </div>
+            <div class="details">
+              <div class="name">Default</div>
+              <div class="num">0,00</div>
+            </div>
+            <div>
+              <span class="icon-button">
+                <i class="la la-remove"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/config.js"></script>
+    <script src="js/Music.js"></script>
+  </body>
+</html>

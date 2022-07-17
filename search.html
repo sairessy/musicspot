@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="libraries/line-awesome.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/search.css" />
+    <title>MusicSpot</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="index.html">
+          <span class="icon-button">
+            <i class="la la-lg la-arrow-left"></i>
+          </span>
+        </a>
+        <input
+          type="search"
+          id="input-search"
+          placeholder="Pesquisar"
+          autofocus
+        />
+      </div>
+    </header>
+    <main>
+      <section>
+        <div id="musics"></div>
+
+        <button class="btn-more">
+          <span>Mais</span><i class="la la-angle-down"></i>
+        </button>
+      </section>
+
+      <div class="player-alt" style="display: none">
+        <div>
+          <audio id="audio" src="" controls></audio>
+        </div>
+      </div>
+    </main>
+    <script src="js/config.js"></script>
+    <script src="js/Music.js"></script>
+    <script src="js/search.js"></script>
+  </body>
+</html>

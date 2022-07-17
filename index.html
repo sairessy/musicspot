@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="libraries/line-awesome.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>MusicSpot</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header-l">
+          <div class="icon-button menu">
+            <i class="la la-lg la-bars"></i>
+          </div>
+          <p class="logo"><i class="la la-headphones"></i> MusicSpot</p>
+        </div>
+        <a href="search.html">
+          <span class="icon-button">
+            <img
+              src="assets/img/search-dark.svg"
+              width="20"
+              height="20"
+              alt="search"
+            />
+          </span>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div id="musics"></div>
+
+        <button class="btn-more">
+          <span>Mais</span><i class="la la-angle-down"></i>
+        </button>
+      </section>
+
+      <div class="player-alt">
+        <div>
+          <audio id="audio" src="" controls></audio>
+        </div>
+      </div>
+
+      <!-- <div class="player">
+        <p><span>00:00</span> | <span>00:00</span></p>
+        <div class="controllers">
+          <span class="icon-button">
+            <i class="la la-lg la-stop"></i>
+          </span>
+          <span class="icon-button">
+            <i class="la la-lg la-pause"></i>
+          </span>
+        </div>
+      </div> -->
+    </main>
+
+    <div class="sidebar-container">
+      <div class="sidebar">
+        <a href="#" class="item">
+          <i class="la la-user-circle"></i>
+          <span>Dashboard</span>
+        </a>
+        <a href="#" class="item">
+          <i class="la la-star-o"></i>
+          <span>Favoritas</span>
+        </a>
+        <a href="#" class="item">
+          <i class="la la-list"></i><span>Listas de reprodução</span>
+        </a>
+        <a href="#" class="item">
+          <i class="la la-arrow-up"></i><span>Mais escutadas</span>
+        </a>
+        <a href="#" class="item">
+          <i class="la la-newspaper"></i><span>Novos lançamentos</span>
+        </a>
+        <a href="#" class="item">
+          <i class="la la-guitar"></i><span>Género</span>
+        </a>
+        <a href="#" class="item">
+          <i class="la la-whatsapp"></i><span>Fale connosco</span>
+        </a>
+        <a href="#" class="item">
+          <i class="la la-cog"></i><span>Configurações</span>
+        </a>
+        <div>
+          <a id="premium" href="#">Premium</a>
+        </div>
+      </div>
+    </div>
+    <script src="libraries/jquery-3.6.0.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/Music.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+.controllers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+}
+
+.controllers audio {
+  flex: 2;
+}
+
+.controllers .previous-next {
+  flex: 1;
+  margin-left: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.list .body {
+  height: calc(100vh - 78px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
